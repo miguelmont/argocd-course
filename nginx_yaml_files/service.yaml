@@ -9,7 +9,7 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    targetPortL 80
+    targetPort: 80
   selector: 
-    app: nginc
+    app: nginx
   type: NodePort
